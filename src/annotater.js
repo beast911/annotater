@@ -265,11 +265,3 @@
     }
     window.Annotater = Annotater;
 })(window);
-
-let anno = new Annotater({
-    imageSrc: "https://dimg.fws.qa.nt.ctripcorp.com/images/wz021g0000000aa4eC1BF.png",
-    containerId: "image-container",
-    zoomInId: "zoomin",
-    zoomOutId: "zoomout",
-    resetId: "reset"
-})
